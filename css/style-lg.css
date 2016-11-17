@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+}
+.all{
+    width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/*========================== header =========================*/
+
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: red;
+}
+.contact{
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    float: left;
+}
+.logo{
+    width: 216px;
+    height: 57px;
+    background: url(../img/logo.png);
+    margin: 15px 85px 0px 230px;
+}
+.menu{
+    width: 100%;
+    height: 56px;
+    background: #00acac;
+    border-bottom: solid 4px #009a9a;
+    float: left;
+}
