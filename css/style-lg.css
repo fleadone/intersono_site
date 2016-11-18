@@ -14,6 +14,7 @@ body{
     width: 100%;
     height: 150px;
     background-color: red;
+    font-family: 'Roboto', sans-serif;
 }
 .contact{
     width: 100%;
@@ -26,6 +27,10 @@ body{
     height: 57px;
     background: url(../img/logo.png);
     margin: 15px 85px 0px 230px;
+    float: left;
+}
+.logo:hover{
+    cursor: pointer;
 }
 .menu{
     width: 100%;
@@ -33,4 +38,90 @@ body{
     background: #00acac;
     border-bottom: solid 4px #009a9a;
     float: left;
+}
+.cont{
+    width: 445px;
+    height: 90px;
+    float: left;
+}
+.mail{
+    width: 225px;
+    height: 22px;
+    margin: 22px 0px 0px 0px;
+}
+.skype{
+    width: 225px;
+    height: 45px;
+    float: left;
+}
+.phone{
+    width: 190px;
+    height: 90px;
+    float: left;
+    margin: -22px 0px 0px 15px;
+}
+.cont>.phone>p{
+    color: #415959;
+}
+.cont>div>p{
+    margin: 0px;
+    color: #00acac;
+}
+.mail>p{
+    font-weight: 600;
+}
+.cont>div>img{
+    float: left;
+    margin: 4px 8px 0px 0px;
+}
+
+.button{
+    width: 211px;
+    height: 40px;
+    background: #4ab848;
+    float: left;
+    color: #fff;
+    margin: 22px 0px 0px 40px;
+    border-radius: 5px 5px 5px 5px;
+}
+.button>p{
+    margin: 0px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.language{
+    width: 90px;
+    height: 30px;
+    float: left;
+    margin: 33px 0px 0px 47px;
+}
+.language>img{
+    float: left;
+    margin: 3px 0px 0px 0px;
+}
+.language>img:last-child{
+    margin: 10px 0px 0px 0px;
+}
+.language>p{
+    float: left;
+    margin: 0px 5px 0px 5px;
+    font-weight: 600;
+}
+
+/*========== nav =========*/
+
+
+.nav{
+    margin: 20px 0px 0px 175px;
+}
+.nav>li{
+    display: inline-block;
+}
+.nav>li>a{
+    display: block;
+    text-decoration: none;
+    margin: 0px 0px 0px 15px;
 }
