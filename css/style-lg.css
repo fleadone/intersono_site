@@ -1,11 +1,17 @@
 body{
     margin: 0 auto;
+    font-size: 15px;
 }
 .all{
     width: 1600px;
     margin: 0 auto;
     position: relative;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
 }
+
+
+
 
 
 /*========================== header =========================*/
@@ -34,7 +40,7 @@ body{
 }
 .menu{
     width: 100%;
-    height: 56px;
+    height: 60px;
     background: #00acac;
     border-bottom: solid 4px #009a9a;
     float: left;
@@ -112,25 +118,25 @@ body{
 }
 
 
-/*========== nav =========*/
+/*========== navigations =========*/
 
 
-.nav{
+.navigations{
     margin: 20px 0px 0px 175px;
     float: left;
 }
-.nav>li{
+.navigations>li{
     display: inline-block;
     padding: 0px 0px 22px 0px;
 }
-.nav>li>a{
+.navigations>li>a{
     display: block;
     text-decoration: none;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 15px;
     color: #fff;
     font-weight: 600;
 }
-.nav>li>a>img{
+.navigations>li>a>img{
     width: 10px;
     height: 6px;
     margin: 0px 0px 0px 5px;
@@ -146,7 +152,7 @@ body{
 .search:hover{
     cursor: pointer;
 }
-.nav>li:hover .submenu{
+.navigations>li:hover .submenu{
     display: block;
 }
 
@@ -156,7 +162,7 @@ body{
 .submenu{
     position: absolute;
     display: none;
-    margin: 18px 0px 0px -5px;
+    margin: 15px 0px 0px -5px;
     list-style: none;
     padding: 0px 0px 0px 0px;
 }
@@ -167,10 +173,10 @@ body{
     font-size: 95%;
     font-weight: 600;
     background-color: #00acac;
-    padding: 8px 0px 0px 15px;
+    padding: 7px 0px 0px 15px;
     margin: 0px 0px 0px 0px;
     width: 190px;
-    height: 27px;
+    height: 35px;
 }
 .submenu>li:first-child{
     border-top: solid 4px #fff;
@@ -207,10 +213,10 @@ body{
 }
 
 
-/*=========================== sidebar ===========================*/
+/*=========================== sidebar1 ===========================*/
 
 
-.sidebar{
+.sidebar1{
     width: 300px;
     font-family: 'Roboto', sans-serif;
     float: left;
@@ -251,7 +257,47 @@ body{
 .context-top{
     width: 360px;
     height: 470px;
-    background-color: red;
     float: left;
-    margin: 16px 0px 0px 0px;
+    margin: 16px 0px 0px 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.context-top>p{
+    margin: 0px 0px 0px 0px;
+    color: #415959;
+}
+.context-top>p:first-child{
+    font-size: 190%;
+    color: #00acac;
+    padding: 5px 0px 15px 0px;
+}
+.context-top-btn{
+    width: 150px;
+    height: 40px;
+    background-color: #4ab848;
+    border-radius: 5px 5px 5px 5px;
+    margin: 25px 0px 0px 2px;
+}
+.context-top-btn>p{
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 20px;
+    color: #fff;
+}
+.context-top-btn:hover{
+    cursor: pointer;
+}
+
+
+/*========================= slider-top =========================*/
+
+
+.slider-top{
+    width: 445px;
+    height: 365px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    background-color: red;
+}
+
+.carousel-indicators{
+    bottom: -35px;
 }
