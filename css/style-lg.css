@@ -205,3 +205,53 @@ body{
     float: left;
     font-size: 300%;
 }
+
+
+/*=========================== sidebar ===========================*/
+
+
+.sidebar{
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    
+}
+.insidebar{
+    list-style: none;
+}
+
+.insidebar>li>a{
+    text-decoration: none;
+    color: #415959;
+    font-weight: 600;
+    float: left;
+    margin-left: 15px;
+}
+.insidebar>li>a:hover{
+    cursor: pointer;
+}
+.insidebar>li{
+    display: block;
+    width: 257px;
+    height: 15px;
+    border-bottom: solid 1px #d9e9e9;
+    padding: 15px 0px 15px 0px;
+}
+
+.insidebar>li:nth-child(13){
+    padding: 15px 0px 35px 0px;
+}
+.insidebar>li:last-child{
+    border-bottom: none;
+}
+
+
+/*========================= context-top =========================*/
+
+.context-top{
+    width: 360px;
+    height: 470px;
+    background-color: red;
+    float: left;
+    margin: 16px 0px 0px 0px;
+}
