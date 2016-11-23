@@ -2,13 +2,7 @@ body{
     margin: 0 auto;
     font-size: 15px;
 }
-.all{
-    width: 970px;
-    margin: 0 auto;
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: content-box;
-}
+
 
 /*========================== header =========================*/
 
