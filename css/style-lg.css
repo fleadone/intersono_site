@@ -3,7 +3,7 @@ body{
     font-size: 15px;
 }
 .all{
-    max-width: 1600px;
+    width: 1600px;
     margin: 0 auto;
     position: relative;
     font-family: 'Roboto', sans-serif;
