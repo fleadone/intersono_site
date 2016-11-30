@@ -4,7 +4,7 @@ body{
 }
 
 .all{
-    width: 1600px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     font-family: 'Roboto', sans-serif;
@@ -29,7 +29,8 @@ body{
     width: 216px;
     height: 57px;
     background: url(../img/logo.png);
-    margin: 15px 85px 0px 230px;
+    background-position: center;
+    margin: 15px 7% 0px 10%;
     float: left;
 }
 .logo:hover{
@@ -43,25 +44,25 @@ body{
     float: left;
 }
 .cont{
-    width: 445px;
+    width: 35%;
     height: 90px;
     float: left;
 }
 .mail{
-    width: 225px;
+    width: 51%;
     height: 22px;
     margin: 22px 0px 0px 0px;
 }
 .skype{
-    width: 225px;
+    width: 53%;
     height: 45px;
     float: left;
 }
 .phone{
-    width: 190px;
+    width: 45%;
     height: 90px;
     float: left;
-    margin: -22px 0px 0px 15px;
+    margin: -22px 0px 0px 0%;
 }
 .cont>.phone>p{
     color: #415959;
@@ -79,12 +80,12 @@ body{
 }
 
 .button{
-    width: 211px;
+    width: 13.18%;
     height: 40px;
     background: #4ab848;
     float: left;
     color: #fff;
-    margin: 22px 0px 0px 40px;
+    margin: 22px 0px 0px 0%;
     border-radius: 5px 5px 5px 5px;
 }
 .button>p{
@@ -96,10 +97,10 @@ body{
     cursor: pointer;
 }
 .language{
-    width: 90px;
+    width: 7%;
     height: 30px;
     float: left;
-    margin: 33px 0px 0px 47px;
+    margin: 33px 0px 0px 5%;
 }
 .language>img{
     float: left;
@@ -119,17 +120,20 @@ body{
 
 
 .navigations{
-    margin: 20px 0px 0px 175px;
+    width: 100%;
+    margin: 20px 0px 0px 0%;
+    padding: 0;
     float: left;
+    text-align: center;
 }
 .navigations>li{
     display: inline-block;
-    padding: 0px 0px 22px 0px;
+    padding: 0px 0px 22px 1%;
 }
 .navigations>li>a{
     display: block;
     text-decoration: none;
-    margin: 0px 0px 0px 15px;
+    margin: 0px 0px 0px 0%;
     color: #fff;
     font-weight: 600;
 }
@@ -139,7 +143,7 @@ body{
     margin: 0px 0px 0px 5px;
 }
 .search{
-    margin: 16px 0px 0px 55px;
+    margin: 16px 0px 0px -4%;
     float: left;
 }
 .search>img{
@@ -159,6 +163,7 @@ body{
 .submenu{
     position: absolute;
     display: none;
+    text-align: left;
     margin: 15px 0px 0px -5px;
     list-style: none;
     padding: 0px 0px 0px 0px;
@@ -191,6 +196,7 @@ body{
     height: 250px;
     background: url(../img/photo.png);
     font-family: 'Roboto', sans-serif;
+    background-size: cover;
 }
 .photo>div>p{
     float: left;
@@ -199,11 +205,11 @@ body{
     font-size: 80%;
 }
 .photo>div>p:first-child{
-    margin: 15px 10px 0px 200px;
+    margin: 15px 10px 0px 8%;
     text-decoration: underline;
 }
 .photo>h1{
-    margin: 95px 0px 0px 45px;
+    margin: 95px 0px 0px 4%;
     color: #fff;
     float: left;
     font-size: 300%;
@@ -214,13 +220,14 @@ body{
 
 
 .sidebar1{
-    width: 300px;
+    width: 19%;
     font-family: 'Roboto', sans-serif;
     float: left;
-    margin: 0px 0px 0px 190px;
+    margin: 0px 0px 0px 8%;
 }
 .insidebar{
     list-style: none;
+    padding: 0;
 }
 
 .insidebar>li>a{
@@ -235,7 +242,7 @@ body{
 }
 .insidebar>li{
     display: block;
-    width: 257px;
+    width: 100%;
     height: 15px;
     border-bottom: solid 1px #d9e9e9;
     padding: 16px 0px 31px 0px;
@@ -251,11 +258,22 @@ body{
 
 /*========================= context-top =========================*/
 
+
+.center-contex-top{
+    width: 73%;
+    height: 575px;
+    float: left;
+}
+
+
+
+
+
 .context-top{
-    width: 360px;
+    width: 40%;
     height: 470px;
     float: left;
-    margin: 16px 0px 0px 30px;
+    margin: 16px 0px 0px 3%;
     font-family: 'Roboto', sans-serif;
 }
 .context-top>p{
@@ -288,10 +306,10 @@ body{
 
 
 .slider-top{
-    width: 445px;
+    width: 444px;
     height: 365px;
     float: left;
-    margin: 16px 0px 0px 40px;
+    margin: 16px 0px 0px 5%;
     
 }
 .carousel-indicators{
@@ -313,7 +331,7 @@ body{
     top: 40%;
 }
 .carousel-control.right{
-    right: -30px;
+    right: -6.8%;
 }
 .carousel-control.left{
     left: -30px;
@@ -323,11 +341,20 @@ body{
 /*======================== context-both =======================*/
 
 
+.center-context-both{
+    width: 73%;
+    height: 530px;
+    float: left;
+}
+
+
+
+
 .context-both{
-    width: 343px;
+    width: 40%;
     height: 470px;
     float: left;
-    margin: 585px 0px 0px -844px;
+    margin: 10px 0px 0px 3%;
     font-family: 'Roboto', sans-serif;
 }
 .context-both>p{
@@ -359,10 +386,10 @@ body{
 /*========================= slider-both =========================*/
 
 .slider-both{
-    width: 445px;
+    width: 444px;
     height: 365px;
     float: left;
-    margin: 206px 0px 0px 40px;
+    margin: 10px 0px 0px 5%;
 }
 
 
@@ -370,10 +397,10 @@ body{
 
 
 .form{
-    width: 256px;
+    width: 19%;
     height: 335px;
     background-color: #ecf7f7;
-    margin: 380px 0px 0px -1134px;
+    margin: -275px 0px 0px 8%;
     float: left;
 }
 .form>p{
@@ -383,16 +410,16 @@ body{
     padding: 20px 0px 0px 40px;
 }
 input{
-    width: 225px;
+    width: 88%;
     height: 35px;
-    margin: 5px 0px 0px 15px;
+    margin: 5px 0px 0px 7%;
     border-radius: 5px 5px 5px 5px;
     border: 1px solid #a6d7d7;
 }
 select{
-    width: 225px;
+    width: 88%;
     height: 35px;
-    margin: 5px 0px 0px 15px;
+    margin: 5px 0px 0px 7%;
     border-radius: 5px 5px 5px 5px;
     border: 1px solid #a6d7d7;
 }
